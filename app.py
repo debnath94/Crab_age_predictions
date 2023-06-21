@@ -14,7 +14,7 @@ from pickle import load
 import streamlit as st
 import tensorflow as tf
 
-df = load(open('E:/LiveProject/playground-series-s3e16_crab_age/crab_age.pickle', 'rb'))
+df = load(open('crab_age.pickle', 'rb'))
 
 st.title("Crabe Age Predictions")
 
